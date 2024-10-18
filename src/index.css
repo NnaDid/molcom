@@ -1,0 +1,12 @@
+button:hover {
+  border-color: #646cff;
+}
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button.become-client{
+  background-image: linear-gradient(to right, #286EA7, #01112E);
+}
