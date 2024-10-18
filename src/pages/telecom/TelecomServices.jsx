@@ -8,10 +8,14 @@ import {
   ListItem,
   VStack,
 } from '@chakra-ui/react';
+import Footer from '../../components/Footer';
+import NavBar from '../../components/NavBar';
 
 const TelecomServices = () => {
   return (
-    <Container maxW="container.lg" py={10}>
+      <>
+      <NavBar />
+     <Container maxW="container.lg" py={10}>
       <VStack spacing={8} align="start">
         <Heading as="h1" size="2xl">
           Telecom Services
@@ -53,6 +57,10 @@ const TelecomServices = () => {
         </Box>
       </VStack>
     </Container>
+
+    <Footer />
+      
+      </>
   );
 };
 
