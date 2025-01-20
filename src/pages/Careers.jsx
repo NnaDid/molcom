@@ -29,47 +29,57 @@ const CareersPage = () => {
             </Text>
         </Box>
       <Container maxW="container.lg" py={10}>
-      <VStack spacing={8} align="start">        
-        <Stack spacing={6} w="full">
-          <Box p={5} shadow="md" borderWidth="1px">
-            <Heading fontSize="xl">Frontend Developer</Heading>
-            <Text mt={2}>
-              We are looking for a talented Frontend Developer to join our team.
-            </Text>
-            <Button my={4} colorScheme="blue">
-             Job Description
-            </Button>
-            <Button mx={4} my={4} colorScheme="blue">
-              Apply Now
-            </Button>
-          </Box>
+      <VStack spacing={8} align="start">   
 
-          <Box p={5} shadow="md" borderWidth="1px">
-            <Heading fontSize="xl">Backend Developer</Heading>
-            <Text mt={2}>
-              Seeking a skilled Backend Developer to work on exciting projects.
-            </Text>
-            <Button my={4} colorScheme="blue">
-             Job Description
-            </Button>
-            <Button mx={4} my={4} colorScheme="blue">
-              Apply Now
-            </Button>
-          </Box>
+            <Flex w="full" shadow="md" borderWidth="1px">
+                <Image src='../../src/assets/insight/webinar.png'/>
+                <Box p={5} >
+                    <Heading fontSize="xl">Frontend Developer</Heading>
+                    <Text mt={2}>
+                    We are looking for a talented Frontend Developer to join our team.
+                    </Text>
+                    <Button my={4} colorScheme="blue">
+                    Job Description
+                    </Button>
+                    <Button mx={4} my={4} colorScheme="blue">
+                    Apply Now
+                    </Button>
+                </Box>
+            </Flex> 
+            
 
-          <Box p={5} shadow="md" borderWidth="1px">
-            <Heading fontSize="xl">UX/UI Designer</Heading>
-            <Text mt={2}>
-              Join us as a UX/UI Designer and help create amazing user experiences.
-            </Text>
-            <Button my={4} colorScheme="blue">
-             Job Description
-            </Button>
-            <Button mx={4} my={4} colorScheme="blue">
-              Apply Now
-            </Button>
-          </Box>
-        </Stack>
+            <Flex w="full" shadow="md" borderWidth="1px">
+                <Image src='../../src/assets/insight/webinar.png'/>
+                <Box p={5} >
+                    <Heading fontSize="xl">Frontend Developer</Heading>
+                    <Text mt={2}>
+                    We are looking for a talented Frontend Developer to join our team.
+                    </Text>
+                    <Button my={4} colorScheme="blue">
+                    Job Description
+                    </Button>
+                    <Button mx={4} my={4} colorScheme="blue">
+                    Apply Now
+                    </Button>
+                </Box>
+            </Flex> 
+
+            <Flex w="full" shadow="md" borderWidth="1px">
+                <Image src='../../src/assets/insight/webinar.png'/>
+                <Box p={5} >
+                    <Heading fontSize="xl">Frontend Developer</Heading>
+                    <Text mt={2}>
+                    We are looking for a talented Frontend Developer to join our team.
+                    </Text>
+                    <Button my={4} colorScheme="blue">
+                    Job Description
+                    </Button>
+                    <Button mx={4} my={4} colorScheme="blue">
+                    Apply Now
+                    </Button>
+                </Box>
+            </Flex> 
+
       </VStack>
     </Container>
 

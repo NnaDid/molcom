@@ -1,0 +1,37 @@
+/* // index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1575d609;
+}
+
+.sidebar {
+  height: 100vh;
+}
+
+.content {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+
+.custom-nav .custom-link {
+  color: #000;  
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-nav .custom-link:hover {
+  background-color: rgba(25, 25, 241, 0.639);  
+  color: #fff;  
+}
+
+/* .custom-nav .custom-link.active {
+  background-color:  rgba(25, 25, 241, 0.639); 
+  color: #fff;  
+} */
+

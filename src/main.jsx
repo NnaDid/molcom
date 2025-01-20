@@ -12,6 +12,7 @@ import CSRPage from './pages/Csr.jsx';
 import CareersPage from './pages/Careers.jsx';
 
 import TelecomServices from './pages/telecom/TelecomServices.jsx';
+import IctPage from './pages/ict/ICTPage.jsx';
 
 import App from './App.jsx'
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
   {  path: "/csr", element: <CSRPage />,  },
   {  path: "/careers", element: <CareersPage />,  },
   {  path: "/telecom", element: <TelecomServices />,  },
+  {  path: "/ict", element: <IctPage />,  },
 ]);
 
 

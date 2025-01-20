@@ -13,19 +13,19 @@ const AboutUs = () => {
 
     <Box p={8}>
         {/* Company Overview Section */}
-        <Flex direction="column" align="center" mb={16}>
-            <Heading as="h1" size="2xl" mb={4} textAlign="center">
+        <Flex direction="column" align="center" mb={16} py={4}  backgroundImage={`url(${bgfoto})`} >
+            <Heading as="h1" size="2xl" mb={4} textAlign="center" color='blue.50'>
                     About Us
             </Heading>
-            <Text fontSize="lg" textAlign="justify" maxW="800px" mb={4}>
-            <Text color='blue.500'>  “… Quality is our guiding principle to Service…” </Text>
+            <Text fontSize="lg" textAlign="justify" maxW="800px" mb={4} color='blue.100'>
+            <Text color='blue.100'>  “… Quality is our guiding principle to Service…” </Text>
                 Molcom Multi-concepts Limited provides a wide range of solution-oriented services to a cross-section of clients within the country and internationally. 
                 The company was borne out of a genuine aspiration to raise the bar within the telecommunications service industry in Africa and is led by a team of young, self-motivated, individuals with extensive relevant experience and an ever-growing desire to invest in skill acquisition and technology research.
                 With our current rate of rapid growth, our continuous quest for excellence is evident in all our service areas. We have an exceptional track record with our current clients, and we intend to replicate and surpass this with our prospective clients. 
                 Our commitment to safety and world-class standards in our operations distinguishes our quality deliverables to all our clients.
 
             </Text>
-            <Image src={bgfoto} alt="About Us Image" borderRadius="lg" boxShadow="lg" />
+            {/* <Image src={bgfoto} alt="About Us Image" borderRadius="lg" boxShadow="lg" /> */}
         </Flex>
 
         {/* Timeline Section */}
